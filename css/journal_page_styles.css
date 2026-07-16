@@ -1,0 +1,220 @@
+.navbar {
+    display: flex;
+    align-items:center;
+    background-color: rgb(129, 2, 2);
+    color:white;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    top: 0;
+}
+
+.navbar a {
+    font-family: sans-serif;
+}
+
+#navigation_bar {
+
+    top: 0;
+    z-index: 100000;
+    align-self: flex-start;
+}
+
+.logoandname {
+    display: flex;
+    align-items: center;
+}
+
+.logoandname h1 {
+    margin: 0;
+    line-height: 1;
+    font-family: sans-serif;
+}
+
+.navbar button{
+    background-color: transparent;
+    border:none;
+    font-size: 20px;
+}
+
+.navbar h1{
+    font-size: 50px;
+    display: inline;
+    font-family: sans-serif;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: black;
+}
+
+body {
+    margin: 0;
+}
+
+.main_image {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+.main_text {
+    display:flex;
+    padding-top: 30px;
+    font-size: 15px;
+    padding: 0 0%;
+}
+
+.main_text p {
+    white-space: pre-wrap;
+    font-family: sans-serif;
+}
+
+.title_details {
+    display: grid;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contact_bar {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    height:fit-content;
+    padding-top:0;
+    padding-bottom: 0;
+    
+}
+
+
+
+.contact_bar p {
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin:0;
+}
+
+.contact_bar a:link {
+    color: white;
+    font-family: sans-serif;
+}
+
+.contact_bar a:visited {
+    color: white;
+    font-family: sans-serif;
+}
+
+.contact_bar a:active {
+    color: white;
+    font-family: sans-serif;
+}
+
+@media (min-aspect-ratio: 1/1) {
+    .other_journals {
+        padding-top: 10px;
+        width: 90%;
+        padding-right: 5%;
+        padding-left: 5%;
+        display: flex;
+        height: auto;
+        justify-self: center;
+        justify-content: center;
+    }
+
+    .journal_container {
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+}
+
+@media (max-aspect-ratio: 1/1) {
+    .other_journals {
+        padding-top: 10px;
+        width: 80%;
+        padding-right: 10%;
+        padding-left: 10%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-self: center;
+        justify-content: center;
+    }
+}
+
+
+.journal_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.journal_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.journal_container h2 {
+    font-family: sans-serif;
+}
+
+.journal_container img {
+    width: 100%;
+    justify-self: center;
+}
+
+
+.other_journals_title {
+    display: flex;
+    flex-direction: inline;
+    justify-content: center; 
+}
+
+.title_details h1 {
+    font-family: sans-serif;
+}
+
+.title_details h3 {
+    font-family: sans-serif;
+}
+
+.other_journals_container h1 {
+    font-family: sans-serif;
+}
