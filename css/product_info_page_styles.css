@@ -52,7 +52,7 @@ a {
 li {
     font-family: sans-serif;
     list-style-position: inside;
-    font-size: 22px
+    font-size: 22px;
 }
 
 p {
@@ -76,7 +76,10 @@ h3 {
     font-size: 24px;
 }
 
-
+h4 {
+    font-family: sans-serif;
+    font-size: 23px;
+}
 
 .navbar ul {
     list-style-type: none;
@@ -107,6 +110,16 @@ body {
     }
 }
 
+.how_effective_is_it_image {
+    width: 100%;
+    height: auto;
+    img {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+    }
+}
+
 .additional_information_body {
     ul {
         list-style-position: inside;
@@ -119,6 +132,10 @@ body {
         width: 70%;
         aspect-ratio: 16/9;
     }
+}
+
+.vid {
+    padding-top: 25px;
 }
 
 .faq {
@@ -136,6 +153,22 @@ body {
     }
 
     margin-bottom: 30px;
+}
+
+.safety_image {
+    width: 100%;
+    height: auto;
+    img {
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.safety_info_container {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 @media (min-aspect-ratio: 1/1) {
