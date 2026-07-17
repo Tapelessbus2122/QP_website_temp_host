@@ -91,6 +91,10 @@ h4 {
     font-family: sans-serif;
 }
 
+.navbar a {
+    font-size: 25px;
+}
+
 header {
     background-color: black;
 }
