@@ -569,6 +569,11 @@ body {
         object-fit: contain;
     }
     
+    .whatsapp_button {
+        padding-bottom: 50px;
+        left: 10px;
+        width: 9%;
+    }
 }
 
 .professional_deliverables_image {
@@ -852,6 +857,11 @@ body {
         display: flex;
         align-items: center;
     }
+
+    .whatsapp_button {
+        width: 4%;
+        left: 30px;
+    }
 }
 
 @media (max-aspect-ratio: 1/1) {
@@ -1047,12 +1057,10 @@ body {
 
 .whatsapp_button {
     display: flex;
-    width: 4%;
     height: auto;
     aspect-ratio: 1/1;
     position: fixed;
     bottom: 60px;
-    left: 30px;
     justify-content: center;
     align-items: center;
     z-index: 1000;
